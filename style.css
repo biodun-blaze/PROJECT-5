@@ -1,3 +1,10 @@
+
+body {
+    height: 100%;
+    padding: 100%;
+    margin: 100%;
+}
+
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -45,49 +52,6 @@ h1 {
     font-weight: 700;
 }
 
-.Heading-1-container {
-    margin-left: 50px;
-    margin-top: 150px;
-    width: 100%;
-}
-
-
-a {
-
-    margin: 10px 20px;
-    text-decoration: none;
-    position: relative;
-    /*top: 50px;*/
-
-}
-
-.middle-container {
-    background-color: hsl(238, 22%, 44%);
-    /*position: absolute;*/
-    bottom: 20px;
-    /*margin-top: 0;*/
-    display: inline-block;
-    width: 100%;
-    
-}
-
-.bottom-container {
-    background-color: hsl(243, 87%, 12%);
-    /*position: absolute;*/
-    bottom: 20px;
-    display: inline-block;
-    width: 100%;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 .logo-container2 {
     padding-top: 50px;
     margin-left: 50px;
@@ -102,33 +66,30 @@ a {
     font-family: 'Raleway', sans-serif;
 }
 
-.illustration1 {
-    display: inline-block;
-    position: relative;
-    left: 750px;
-    bottom: 300px;
-}
-
-.illustration1img {
-    width: 550px;
-    height: 450px;
+.Heading-1-container {
+    margin-left: 50px;
+    margin-top: 150px;
     width: 100%;
 }
 
-.curve {
-    position: relative;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*fill: none;
-    fill-rule: evenodd;*/
+.illustration1img {
+    /* width: 550px;
+    height: 450px;
+    width: 100%;*/
+
+    position: absolute;
+    width: 540px;
+    height: 430px;
+    display: inline-block;
+    right: 100px;
+    padding-top: 150px;
 }
 
-body {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
+.cover {
 
+    fill: none;
+    fill-rule: evenodd;
+}
 
 .imgg {
     width: 100%;
@@ -136,15 +97,6 @@ body {
     object-position: center;
     position: relative;
     height: 700px;
-
-
-}
-.cover{
-   
-    fill: none;
-    fill-rule: evenodd;
-   
-    
 }
 
 .illustration2img {
@@ -157,36 +109,88 @@ body {
 
 }
 
-.illustration2 {
-    display: inline-block;
-
-}
-
-.whitebox {
-   background-color: white;
-    position: absolute;
-    display: inline-block;
-    width:350px;
-    height: 220px;
-    box-shadow: 10px 5px 10px 5px lightgray;
-    border-radius: 5px 5px 5px 5px;
-    
-
-    
-}
-
 .stay {
-    
+
     position: absolute;
     width: 540px;
     height: 430px;
     display: inline-block;
     left: 50px;
     padding-top: 100px;
+}
+
+.whitebox {
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    width: 350px;
+    height: 220px;
+    box-shadow: 10px 5px 10px 5px lightgray;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.Kyle {
+    top: 20px;
+    width: 100%;
 
 }
 
-#testimonial{
+.middle-container {
+    background-color: hsl(238, 22%, 44%);
+    /*position: absolute;*/
+    bottom: 20px;
+    /*margin-top: 0;*/
+    display: inline-block;
+    width: 100%;
+
+}
+
+.middle-containercontent {
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.bottom-container {
+    background-color: hsl(243, 87%, 12%);
+    /*position: absolute;*/
+    bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+.bottom-containercontent {
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+a {
+
+    margin: 10px 20px;
+    text-decoration: none;
+    position: relative;
+    /*top: 50px;*/
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.curve {
+    position: relative;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*fill: none;
+    fill-rule: evenodd;*/
+}
+
+
+
+#testimonial {
     border-radius: 50%;
     position: relative;
     width: 50px;
@@ -194,41 +198,19 @@ body {
     display: inline-block;
 }
 
-.Fylo{
-    
-}
-
-.Kyle{
-    top: 20px;
-    width: 100%;
-  
-}
-
-.middle-containercontent
-{
-    margin-left: 50px;
-    margin-top: 150px;
-}
-.bottom-containercontent{
-    margin-left: 50px;
-    margin-top: 150px;
-}
+.Fylo {}
 
 
-
- .fa-facebook{
+.fa-facebook {
     color: white;
- }
+}
 
- .fa-square-twitter{
+.fa-square-twitter {
     border-radius: 50%;
-color: white
+    color: white
+}
 
- }
-
- .fa-square-instagram
-{
+.fa-square-instagram {
     color: white;
     background-color: transparent;
 }
-
