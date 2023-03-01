@@ -1,8 +1,8 @@
 
 body {
     height: 100%;
-    padding: 100%;
-    margin: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .btn {
@@ -70,6 +70,8 @@ h1 {
     margin-left: 50px;
     margin-top: 150px;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .illustration1img {
@@ -77,12 +79,17 @@ h1 {
     height: 450px;
     width: 100%;*/
 
-    position: absolute;
+   /* margin-left: 350px;*/
+    /*margin-top: 50px;*/
+
+    position: relative;
     width: 540px;
     height: 430px;
     display: inline-block;
-    right: 100px;
-    padding-top: 150px;
+    left: 665px;
+    bottom: 350px ;
+    /*right: 100px;*/
+    /*padding-top: 150px;*/
 }
 
 .cover {
